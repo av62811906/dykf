@@ -252,12 +252,6 @@ class Login(ChromeDriver):
 
     **********************************************************
 
-    # l = Login(
-    #     'https://fxg.jinritemai.com/ffa/mshop/appeal/list',
-    #     '2700167507@qq.com',
-    #     '123456Cc',
-    # )
-    # l.login()
 
     **********************************************************
 
@@ -334,9 +328,6 @@ class Glance(ChromeDriver):
     使用说明：
 
     *******************************************************************************************
-
-    g = Glance('https://fxg.jinritemai.com/ffa/mshop/homepage/index', '2700167507@qq.com')
-    g.glance_order()
 
     *******************************************************************************************
 
@@ -1034,20 +1025,5 @@ class Appeal(Glance):
 
 
 if __name__ == '__main__':
-    # l = Login(
-    #     'https://fxg.jinritemai.com/ffa/mshop/appeal/list',
-    #     '2700167507@qq.com',
-    #     '123456Cc',
-    # )
-    # l.login()
-    #
-    # time.sleep(500000)
-
-    g = Glance('https://fxg.jinritemai.com/ffa/mshop/homepage/index', '2700167507@qq.com')
-    g.glance_order()
-
-    # dt = db.find_all_appeal()
-    # a = Appeal('https://fxg.jinritemai.com/ffa/mshop/homepage/index', dt)
-    # a.appeal_handler()
 
     pass
